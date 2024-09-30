@@ -9,9 +9,9 @@ scores = {
 average_scores = sum(scores.values()) / len(scores)
 print (f"평균 점수는 {average_scores} 입니다\n")
 
-2. 홀수, 짝수 판별하기
+#2. 홀수, 짝수 판별하기
 number = 13
-if number%2 ==1:
+if number%2 == 1:
     print (f"{number}은/는 홀수 입니다\n")
 else:
     print (f"{number}은/는 짝수 입니다\n")
