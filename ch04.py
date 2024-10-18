@@ -71,13 +71,3 @@ f.write(body)
 f.close()
 
 print(body)
-
-#8 입력값을 모두 더해 출력하기
-import sys
-
-numbers = sys.argv[1:]
-result = 0
-
-for n in numbers:
-    result += int(n)
-print(result)
