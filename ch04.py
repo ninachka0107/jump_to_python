@@ -55,7 +55,7 @@ f.write(user_input)
 f.write("\n")
 f.close()
 
-7 파일의 문자열 바꾸기
+#7 파일의 문자열 바꾸기
 f = open('test.txt', 'w')
 f.write('Life is too short. You need java')
 f.close()
